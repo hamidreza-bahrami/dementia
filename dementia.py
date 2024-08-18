@@ -1,23 +1,13 @@
 import streamlit as st
 import pickle
 import re
-import cv2
 import numpy as np
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split
-import keras
-import tensorflow
-from tensorflow.keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
-from keras.models import Sequential, load_model
-from PIL import Image
 port_stem = PorterStemmer()
 import time
 from pygoogletranslation import Translator
-import smtplib
-from email.message import EmailMessage
 import nltk
 import ssl
 try:
