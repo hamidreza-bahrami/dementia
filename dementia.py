@@ -31,16 +31,6 @@ load_modely = pickle.load(open('modely.pkl', 'rb'))
 
 translator = Translator()
 
-def load_model():
-    with open('saved.pkl', 'rb') as file:
-        data = pickle.load(file)
-    return data
-
-data = load_model()
-
-model = data['model']
-x = data['x']
-
 def stemming(content):
   con = re.sub('[^a-zA-Z]', ' ', content)
   con = con.lower()
