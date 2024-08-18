@@ -69,7 +69,7 @@ def show_page():
     container = st.container(border=True)
     container.write("<h6 style='text-align: right; color: gray;'>تشخیص آلزایمر و زوال عقل زودرس از متن 💬</h6>", unsafe_allow_html=True)
     container.write("<h6 style='text-align: right; color: gray;'>.برای افزایش دقت تحلیل سامانه ، توسط اطرافیان شخص سالمند پاسخ داده شود ⚠️</h6>", unsafe_allow_html=True)
-    container.write("<h6 style='text-align: right; color: gray;'>.علائم شخص سالمند موردنظر را در یک پاراگراف توصیف کنید 🗨️</h6>", unsafe_allow_html=True)
+    container.write("<h6 style='text-align: right; color: gray;'>.علائم شخص سالمند موردنظر را از جنبه عقلی ، فکری و جسمی در یک پاراگراف توصیف کنید 🗨️</h6>", unsafe_allow_html=True)
     
     text_3 = st.text_area('شخص سالمند موردنظر اغلب چه رفتارهایی از خود بروز می دهد؟',height=None,max_chars=None,key=None)
 
